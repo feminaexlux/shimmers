@@ -4,7 +4,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="fxl" />
+          <element id="module-output" name="shimmers" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.wicket:wicket-core:7.6.0" />
@@ -67,7 +67,7 @@
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/fxl-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="fxl/web/Web" />
+      <element id="javaee-facet-resources" facet="shimmers/web/Web" />
     </root>
   </artifact>
 </component>
