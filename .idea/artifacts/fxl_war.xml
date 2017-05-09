@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fxl:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fxl-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="fxl:war exploded" />
+    </root>
+  </artifact>
+</component>
