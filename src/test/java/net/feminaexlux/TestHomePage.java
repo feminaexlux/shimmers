@@ -21,9 +21,9 @@ public class TestHomePage
 	public void homepageRendersSuccessfully()
 	{
 		//start and render the test page
-		tester.startPage(Fxl.class);
+		tester.startPage(Shimmers.class);
 
 		//assert rendered page class
-		tester.assertRenderedPage(Fxl.class);
+		tester.assertRenderedPage(Shimmers.class);
 	}
 }

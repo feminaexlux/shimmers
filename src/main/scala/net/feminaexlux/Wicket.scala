@@ -9,7 +9,7 @@ import org.apache.wicket.spring.injection.annot.SpringComponentInjector
   */
 class Wicket extends WebApplication {
   override def getHomePage: Class[_ <: Page] = {
-    return classOf[Fxl]
+    return classOf[Shimmers]
   }
 
   override def init(): Unit = {

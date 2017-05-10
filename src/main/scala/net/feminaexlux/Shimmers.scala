@@ -8,6 +8,6 @@ import net.feminaexlux.page.Basic
 import net.feminaexlux.panel.Content
 import org.apache.wicket.request.mapper.parameter.PageParameters
 
-class Fxl(parameters: PageParameters) extends Basic("Shimmers", parameters) {
-  replace(new Content("Fxl page"))
+class Shimmers(parameters: PageParameters) extends Basic("Shimmers", parameters) {
+  replace(new Content("Home page"))
 }

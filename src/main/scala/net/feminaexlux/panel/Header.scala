@@ -1,6 +1,6 @@
 package net.feminaexlux.panel
 
-import net.feminaexlux.Fxl
+import net.feminaexlux.Shimmers
 import net.feminaexlux.page.UserAdministration
 import org.apache.wicket.markup.html.basic.Label
 import org.apache.wicket.markup.html.link.Link
@@ -15,7 +15,7 @@ class Header(title: String) extends Panel(PanelIds.Header) {
   add(new Label("page_title", title))
   add(new Link("home_page") {
     override def onClick(): Unit = {
-      setResponsePage(classOf[Fxl])
+      setResponsePage(classOf[Shimmers])
     }
   })
   add(new Link("user_admin") {
