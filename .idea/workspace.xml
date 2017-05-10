@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3531058b-5e3b-4774-b3b7-2c743c2635de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/package.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Spring.scala.old" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Wicket.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Wicket.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/UpdatePasswordForm.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/UpdatePasswordForm.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/model/User.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/model/User.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/model/dao/UserDao.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/model/dao/UserDao.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/UserAdministration.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/UserAdministration.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/CreateUser.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/CreateUser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UpdatePassword.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UpdatePassword.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UserCreated.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UserCreated.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="src/main/webapp/.sass-cache/" />
@@ -1143,7 +1124,7 @@
       <workItem from="1494176611586" duration="31772000" />
       <workItem from="1494303255908" duration="1700000" />
       <workItem from="1494379541332" duration="2244000" />
-      <workItem from="1494389447233" duration="4184000" />
+      <workItem from="1494389447233" duration="4227000" />
     </task>
     <task id="LOCAL-00001" summary="Updating stuff I guess?">
       <created>1494303325782</created>
@@ -1166,11 +1147,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494377503557</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Todos, rename">
+      <created>1494429110842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494429110842</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51041000" />
+    <option name="totallyTimeSpent" value="51084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1366,6 +1354,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
