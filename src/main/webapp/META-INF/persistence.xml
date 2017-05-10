@@ -8,7 +8,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>net.feminaexlux.model.User</class>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.0.108/shimmers?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=PST"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3333/shimmers?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=PST"/>
             <property name="javax.persistence.jdbc.user" value="shimmers"/>
             <property name="javax.persistence.jdbc.password" value="shimmers"/>
         </properties>
