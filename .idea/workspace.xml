@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3531058b-5e3b-4774-b3b7-2c743c2635de" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/PanelIds.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/utility/PanelIds.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/CreateUser.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/CreateUser.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UpdatePassword.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UpdatePassword.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UserCreated.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UserCreated.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="src/main/webapp/.sass-cache/" />
@@ -28,23 +36,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserAdministration.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/UserAdministration.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding>
-                <element signature="e#30#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UpdatePasswordForm.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/UpdatePasswordForm.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#35#68#0" expanded="true" />
               </folding>
@@ -56,10 +52,20 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/node_modules/material-components-web/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/node_modules/material-components-web/dist/material-components-web.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="74">
-              <caret line="5687" column="17" lean-forward="true" selection-start-line="5687" selection-start-column="17" selection-end-line="5687" selection-end-column="17" />
+              <caret line="5687" column="17" lean-forward="false" selection-start-line="5687" selection-start-column="17" selection-end-line="5687" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -86,58 +92,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Serializable.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar!/scala/Serializable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Basic.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Basic.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/model/dao/UserDao.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-              <folding>
-                <element signature="e#35#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdatePassword.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UpdatePassword.html">
+      <file leaf-file-name="Header.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#31#62#0" expanded="true" />
+                <element signature="n#!!doc;n#Header#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="73" lean-forward="false" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookmarkablePageLink.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/7.6.0/wicket-core-7.6.0-sources.jar!/org/apache/wicket/markup/html/link/BookmarkablePageLink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListChoice.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/7.6.0/wicket-core-7.6.0-sources.jar!/org/apache/wicket/markup/html/form/ListChoice.java">
+      <file leaf-file-name="PanelIds.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/utility/PanelIds.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,7 +189,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/BasicPage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.scala" />
         <option value="$PROJECT_DIR$/src/main/java/net/feminaexlux/WicketApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/net/feminaexlux/TestHomePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -198,7 +203,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Spring.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/utility/Security.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Fxl.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Shimmers.scala" />
         <option value="$PROJECT_DIR$/node_modules/material-components-web/material-components-web.scss" />
@@ -220,6 +224,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/UpdatePasswordForm.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/authentication/UpdatePassword.html" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/utility/PanelIds.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1124,7 +1131,7 @@
       <workItem from="1494176611586" duration="31772000" />
       <workItem from="1494303255908" duration="1700000" />
       <workItem from="1494379541332" duration="2244000" />
-      <workItem from="1494389447233" duration="4227000" />
+      <workItem from="1494389447233" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="Updating stuff I guess?">
       <created>1494303325782</created>
@@ -1154,11 +1161,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494429110842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="IntelliJ updates">
+      <created>1494429151922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1494429151922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51084000" />
+    <option name="totallyTimeSpent" value="51627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1217,7 +1231,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updating stuff I guess?" />
     <MESSAGE value="Todos, rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todos, rename" />
+    <MESSAGE value="IntelliJ updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="IntelliJ updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1230,20 +1245,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/CreateUserForm.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/7.6.0/wicket-core-7.6.0-sources.jar!/org/apache/wicket/session/DefaultPageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -1316,27 +1317,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="1" lean-forward="false" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/net/feminaexlux/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1370,14 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1513,7 +1489,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/model/dao/UserDao.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
           <folding>
             <element signature="e#35#95#0" expanded="true" />
           </folding>
@@ -1523,7 +1499,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/UpdatePasswordForm.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#35#68#0" expanded="true" />
           </folding>
@@ -1533,7 +1509,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/node_modules/material-components-web/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1543,7 +1519,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/node_modules/material-components-web/dist/material-components-web.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
-          <caret line="5687" column="17" lean-forward="true" selection-start-line="5687" selection-start-column="17" selection-end-line="5687" selection-end-column="17" />
+          <caret line="5687" column="17" lean-forward="false" selection-start-line="5687" selection-start-column="17" selection-end-line="5687" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1561,8 +1537,54 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/utility/PanelIds.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/7.6.0/wicket-core-7.6.0-sources.jar!/org/apache/wicket/markup/html/link/BookmarkablePageLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#31#62#0" expanded="true" />
+            <element signature="n#!!doc;n#Header#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="73" lean-forward="false" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

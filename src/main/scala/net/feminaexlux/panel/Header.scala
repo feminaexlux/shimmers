@@ -2,8 +2,9 @@ package net.feminaexlux.panel
 
 import net.feminaexlux.Shimmers
 import net.feminaexlux.page.UserAdministration
+import net.feminaexlux.utility.PanelIds
 import org.apache.wicket.markup.html.basic.Label
-import org.apache.wicket.markup.html.link.Link
+import org.apache.wicket.markup.html.link.BookmarkablePageLink
 import org.apache.wicket.markup.html.panel.Panel
 
 /**
@@ -13,14 +14,6 @@ import org.apache.wicket.markup.html.panel.Panel
 class Header(title: String) extends Panel(PanelIds.Header) {
   add(new Label("h1_title", title))
   add(new Label("page_title", title))
-  add(new Link("home_page") {
-    override def onClick(): Unit = {
-      setResponsePage(classOf[Shimmers])
-    }
-  })
-  add(new Link("user_admin") {
-    override def onClick(): Unit = {
-      setResponsePage(classOf[UserAdministration])
-    }
-  })
+  add(new BookmarkablePageLink("home_page", classOf[Shimmers]))
+  add(new BookmarkablePageLink("user_admin", classOf[UserAdministration]))
 }

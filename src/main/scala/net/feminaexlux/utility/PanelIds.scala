@@ -1,4 +1,4 @@
-package net.feminaexlux.panel
+package net.feminaexlux.utility
 
 /**
   * Created by lani on 5/7/17.

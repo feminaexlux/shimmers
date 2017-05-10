@@ -1,5 +1,6 @@
 package net.feminaexlux.panel
 
+import net.feminaexlux.utility.PanelIds
 import org.apache.wicket.markup.html.basic.Label
 import org.apache.wicket.markup.html.panel.Panel
 import org.joda.time.DateTime
