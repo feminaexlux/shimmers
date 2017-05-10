@@ -15,3 +15,5 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+/src/main/webapp/node_modules/
+/src/main/webapp/.sass-cache/

@@ -8,7 +8,7 @@ import javax.persistence._
   */
 @Entity
 @Table(name = "users")
-class User {
+class User extends java.io.Serializable {
   @Id
   var username: String = _
   var password: String = _

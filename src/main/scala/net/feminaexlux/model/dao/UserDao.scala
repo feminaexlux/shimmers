@@ -15,11 +15,11 @@ import org.springframework.stereotype.Repository
 class UserDao {
   @PersistenceContext var em: EntityManager = _
 
-  def getAll(): List[User] = {
+  def getAll(): java.util.List[User] = {
     val list = em createQuery "select u from User u" getResultList()
     list match {
-      case definedList: List[User] => definedList
-      case _ => List()
+      case definedList: java.util.List[User] => definedList
+      case _ => throw new IllegalArgumentException
     }
   }
 

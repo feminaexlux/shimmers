@@ -9,11 +9,11 @@ import org.apache.wicket.spring.injection.annot.SpringComponentInjector
   */
 class Wicket extends WebApplication {
   override def getHomePage: Class[_ <: Page] = {
-    return classOf[Shimmers]
+    classOf[Shimmers]
   }
 
   override def init(): Unit = {
-    super.init
+    super.init()
     getComponentInstantiationListeners add new SpringComponentInjector(this)
   }
 }
