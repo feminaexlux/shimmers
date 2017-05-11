@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Title...</title>
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <header wicket:id="header_panel">Header</header>
-    <main wicket:id="content_panel">Content</main>
+    <header wicket:id="header_panel" class="mdc-toolbar mdc-toolbar--fixed">Header</header>
+    <main class="mdc-typography" wicket:id="content_panel">Content</main>
     <footer wicket:id="footer_panel">Footer</footer>
+    <aside class="mdc-temporary-drawer" wicket:id="navigation_panel">Navigation</aside>
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script>
+      window.mdc.autoInit();
+    </script>
+    <script src="/js/main.js"></script>
   </body>
 </html>

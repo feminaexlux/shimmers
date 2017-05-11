@@ -3,17 +3,21 @@
   <head>
     <meta charset="UTF-8">
     <wicket:head>
-      <title wicket:id="page_title">Title</title>
+      <title wicket:id="page_title">Header</title>
     </wicket:head>
   </head>
   <body>
     <wicket:panel>
-      <h1 wicket:id="h1_title" class="mdc-typography--display1">Title</h1>
-      Navigation:
-      <ul>
-        <li><a wicket:id="home_page">Home Page</a></li>
-        <li><a wicket:id="user_admin">User Administration</a></li>
-      </ul>
+      <div class="mdc-toolbar__row">
+        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+          <button class="mdc-fab mdc-fab--plain material-icons mdc-ripple-upgraded mdc-ripple-upgraded--background-active-fill mdc-ripple-upgraded--foreground-activation" aria-label="Favorite" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-fab__icon">
+              favorite_border
+            </span>
+          </button>
+          <span class="mdc-toolbar__title" wicket:id="h1_title">Title</span>
+        </section>
+      </div>
     </wicket:panel>
   </body>
 </html>

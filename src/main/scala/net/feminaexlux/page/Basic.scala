@@ -12,5 +12,6 @@ class Basic(title: String, pageParameters: PageParameters) extends WebPage(pageP
   add(new Header(title))
   add(new Content("Some Content"))
   add(new Footer)
+  add(new Navigation)
 }
 
