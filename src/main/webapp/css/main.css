@@ -1,0 +1,16 @@
+:root {
+  --mdc-theme-primary: #f4511e;
+  --mdc-theme-accent: #455a64;
+  --mdc-theme-background: #718792; }
+
+header section button {
+  left: -16px;
+  top: -16px; }
+header section a, header section a:active, header section a:hover, header section a:visited {
+  text-decoration: none;
+  color: #fff; }
+
+main .mdc-toolbar-fixed-adjust {
+  margin-top: 72px; }
+
+/*# sourceMappingURL=main.css.map */

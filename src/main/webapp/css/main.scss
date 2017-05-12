@@ -4,11 +4,24 @@
   --mdc-theme-background: #718792;
 }
 
+$anchors: 'a, a:active, a:hover, a:visited';
+$anchors-hover: 'a:active, a:hover';
+
 header {
   section {
     button {
       left: -16px;
       top: -16px;
     }
+    #{$anchors} {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
+main {
+  .mdc-toolbar-fixed-adjust {
+    margin-top: 72px;
   }
 }
