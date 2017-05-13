@@ -17,3 +17,5 @@ project/plugins/project/
 .worksheet
 /src/main/webapp/node_modules/
 /src/main/webapp/.sass-cache/
+/src/main/webapp/css/*.css
+/src/main/webapp/css/*.css.map

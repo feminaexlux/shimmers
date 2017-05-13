@@ -1,5 +1,6 @@
 package net.feminaexlux
 
+import net.feminaexlux.page.Home
 import org.apache.wicket.Page
 import org.apache.wicket.protocol.http.WebApplication
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector
@@ -9,7 +10,7 @@ import org.apache.wicket.spring.injection.annot.SpringComponentInjector
   */
 class Wicket extends WebApplication {
   override def getHomePage: Class[_ <: Page] = {
-    classOf[Shimmers]
+    classOf[Home]
   }
 
   override def init(): Unit = {

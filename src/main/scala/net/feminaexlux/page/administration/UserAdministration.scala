@@ -1,8 +1,8 @@
-package net.feminaexlux.page
+package net.feminaexlux.page.administration
 
 import net.feminaexlux.model.User
 import net.feminaexlux.model.dao.UserDao
-import net.feminaexlux.panel.authentication.UpdatePassword
+import net.feminaexlux.page.layout.Basic
 import net.feminaexlux.utility.Security
 import org.apache.wicket.request.mapper.parameter.PageParameters
 import org.apache.wicket.spring.injection.annot.SpringBean
@@ -13,8 +13,6 @@ import org.apache.wicket.spring.injection.annot.SpringBean
   */
 class UserAdministration(pageParameters: PageParameters) extends Basic("User Administration", pageParameters) {
   @SpringBean var userDao: UserDao = _
-
-  replace(new UpdatePassword)
 
   if (pageParameters.get("type").toString("").equalsIgnoreCase("update password")) {
     val user = userDao get "lani"

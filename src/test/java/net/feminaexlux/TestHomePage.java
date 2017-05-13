@@ -1,5 +1,6 @@
 package net.feminaexlux;
 
+import net.feminaexlux.page.Home;
 import org.apache.wicket.util.tester.WicketTester;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,9 +22,9 @@ public class TestHomePage
 	public void homepageRendersSuccessfully()
 	{
 		//start and render the test page
-		tester.startPage(Shimmers.class);
+		tester.startPage(Home.class);
 
 		//assert rendered page class
-		tester.assertRenderedPage(Shimmers.class);
+		tester.assertRenderedPage(Home.class);
 	}
 }

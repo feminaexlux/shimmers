@@ -10,5 +10,7 @@ import org.joda.time.DateTime
   */
 
 class Footer extends Panel(PanelIds.Footer) {
-  add(new Label("year", DateTime.now.year.get))
+  private val start = 2017
+  private val now = DateTime.now.year.get
+  add(new Label("year", if (now > start) s"$start-$now" else s"$now"))
 }
