@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3531058b-5e3b-4774-b3b7-2c743c2635de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.scala" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Shimmers.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Home.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/layout/Basic.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/layout/Basic.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/UserAdministration.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Wicket.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/Wicket.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.scala" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html" afterPath="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/main.scss" afterPath="$PROJECT_DIR$/src/main/webapp/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/net/feminaexlux/TestHomePage.java" afterPath="$PROJECT_DIR$/src/test/java/net/feminaexlux/TestHomePage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="src/main/webapp/.sass-cache/" />
@@ -58,12 +44,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Navigation.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Navigation.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="57">
               <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAdministration.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateUserForm.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/CreateUserForm.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#35#113#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAdministration.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding>
+                <element signature="e#45#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +193,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Content.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/Divinya2.svg" />
-        <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/main.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Basic.html" />
@@ -150,6 +208,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Home.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.html" />
+        <option value="$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/main.scss" />
       </list>
     </option>
   </component>
@@ -245,6 +305,36 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shimmers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shimmers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main.scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -364,6 +454,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="administration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shimmers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shimmers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="feminaexlux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -973,7 +1093,7 @@
       <workItem from="1494389447233" duration="12286000" />
       <workItem from="1494567994076" duration="10000" />
       <workItem from="1494568055437" duration="405000" />
-      <workItem from="1494569808682" duration="3071000" />
+      <workItem from="1494569808682" duration="5415000" />
     </task>
     <task id="LOCAL-00001" summary="Updating stuff I guess?">
       <created>1494303325782</created>
@@ -1031,11 +1151,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494570745883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changing my mind on content stuff">
+      <created>1494656798629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1494656798629</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62629000" />
+    <option name="totallyTimeSpent" value="64973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1098,7 +1225,8 @@
     <MESSAGE value="Ideas and todos" />
     <MESSAGE value="More material design, using a custom icon for the logo icon I guess..." />
     <MESSAGE value="Autogen'd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Autogen'd" />
+    <MESSAGE value="Changing my mind on content stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing my mind on content stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1111,7 +1239,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/wicket/wicket-core/7.6.0/wicket-core-7.6.0-sources.jar!/org/apache/wicket/markup/html/form/Form.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/net/feminaexlux/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1293,14 +1420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -1314,61 +1433,53 @@
         <state relative-caret-position="3193">
           <caret line="1451" column="12" lean-forward="true" selection-start-line="1451" selection-start-column="12" selection-end-line="1451" selection-end-column="12" />
           <folding>
-            <marker date="1494656755000" expanded="true" signature="83693:83710" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83693:83728" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83693:83741" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83693:83756" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83791:86839" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83804:86824" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83858:84253" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83877:84238" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="83994:84218" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84034:84184" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84055:84162" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84303:84631" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84322:84616" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84411:84596" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84451:84562" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84472:84540" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84682:85008" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84701:84993" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84788:84973" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84828:84939" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="84849:84917" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85051:85364" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85070:85349" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85144:85329" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85184:85295" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85205:85273" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85415:85737" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85434:85722" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85517:85702" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85557:85668" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85578:85646" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85772:86078" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85791:86063" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85865:86043" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85905:86009" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="85926:85987" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86130:86490" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86149:86475" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86270:86455" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86310:86421" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86331:86399" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86538:86810" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86557:86795" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86590:86775" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86630:86741" ph="..." />
-            <marker date="1494656755000" expanded="true" signature="86651:86719" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89419:89436" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89419:89454" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89419:89467" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89419:89482" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89517:92565" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89530:92550" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89584:89979" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89603:89964" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89720:89944" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89760:89910" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="89781:89888" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90029:90357" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90048:90342" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90137:90322" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90177:90288" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90198:90266" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90408:90734" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90427:90719" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90514:90699" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90554:90665" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90575:90643" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90777:91090" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90796:91075" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90870:91055" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90910:91021" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="90931:90999" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91141:91463" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91160:91448" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91243:91428" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91283:91394" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91304:91372" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91498:91804" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91517:91789" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91591:91769" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91631:91735" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91652:91713" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91856:92216" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91875:92201" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="91996:92181" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="92036:92147" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="92057:92125" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="92264:92536" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="92283:92521" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="92316:92501" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="92356:92467" ph="..." />
+            <marker date="1494983986000" expanded="true" signature="92377:92445" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,24 +1507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1431,22 +1524,6 @@
           <folding>
             <element signature="e#37#67#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1470,10 +1547,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.html">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/Home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#45#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/component/CreateUserForm.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#113#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/page/administration/UserAdministration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/net/feminaexlux/panel/Navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
           <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding />
         </state>
       </provider>

@@ -1,26 +1,58 @@
+$anchors: 'a, a:active, a:hover, a:visited';
+$anchors-hover: 'a:active, a:hover';
+$primaryColor: #f4511e;
+
 :root {
-  --mdc-theme-primary: #f4511e;
+  --mdc-theme-primary: $primaryColor;
   --mdc-theme-accent: #455a64;
 }
 
-$anchors: 'a, a:active, a:hover, a:visited';
-$anchors-hover: 'a:active, a:hover';
+html {
+  margin: 0;
+  padding: 0;
 
-header {
-  section {
-    button {
-      left: -16px;
-      top: -16px;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+
     #{$anchors} {
       text-decoration: none;
-      color: #fff;
+      color: var(--mdc-theme-text-primary-on-primary, #fff);
     }
-  }
-}
 
-main {
-  .mdc-toolbar-fixed-adjust {
-    margin-top: 72px;
+    header {
+      section {
+        padding: 24px 0 0 24px;
+
+        button {
+          left: -16px;
+          top: -16px;
+        }
+      }
+    }
+
+    main {
+      .mdc-toolbar-fixed-adjust {
+        margin: 136px 24px 24px 24px;
+      }
+    }
+
+    footer {
+      bottom: 0;
+      font-size: 12px;
+      height: 16px;
+      position: fixed;
+      text-align: right;
+      width: 100%;
+
+      #{$anchors} {
+        color: var(--mdc-theme-text-primary-on-light, #000);
+        margin-right: 1ex;
+      }
+
+      .material-icons {
+        font-size: 12px;
+      }
+    }
   }
 }
