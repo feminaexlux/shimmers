@@ -8,5 +8,6 @@ import org.apache.wicket.model.Model
   */
 class CreateUserForm extends Form("create_user_form") {
   add(new TextField("username", Model.of("")))
+  add(new TextField("name", Model.of("")))
   add(new PasswordTextField("password", Model.of("")))
 }

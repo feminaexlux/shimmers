@@ -10,5 +10,5 @@ import org.apache.wicket.markup.html.panel.Panel
 
 class Header(title: String) extends Panel(PanelIds.Header) {
   add(new Label("h1_title", title))
-  add(new Label("page_title", title))
+  add(new Label("page_title", if (title contains "Shimmers") title else "Shimmers - " + title))
 }
